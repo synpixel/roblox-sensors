@@ -1,0 +1,25 @@
+{
+  "name": "roblox-sensors",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Sensors": {
+        "$path": "src"
+      },
+      "Packages": {
+        "$path": { "optional": "Packages" }
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "test/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "test/client"
+      }
+    }
+  }
+}
