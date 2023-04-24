@@ -5,10 +5,10 @@
 
     "ReplicatedStorage": {
       "Sensors": {
-        "$path": "src"
-      },
-      "Packages": {
-        "$path": { "optional": "Packages" }
+        "$path": "src",
+        "Packages": {
+          "$path": { "optional": "Packages" }
+        }
       }
     },
 
